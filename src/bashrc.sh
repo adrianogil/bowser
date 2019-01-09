@@ -1,1 +1,2 @@
-alias bw="python2 $BOWSER_DIRS/src/bowser.py"
+alias bowser="python2 $BOWSER_DIRS/bowser.py"
+alias bw="python2 $BOWSER_DIRS/bowser.py"
