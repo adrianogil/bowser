@@ -25,6 +25,7 @@ class BowserController():
             return
 
         keyword = args[0]
+        keyword = keyword.replace(" ", "%20")
 
         with open(self.search_engine_data_path, 'r') as f:
             search_engine_data = json.load(f)
