@@ -1,13 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 import sys
 
-from bowsercontroller import BowserController
+from .bowsercontroller import BowserController
 import utils
-
-try:
-    range = xrange
-except NameError:
-    pass
 
 controller = BowserController()
 commands_parse = controller.get_commands()
